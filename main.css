@@ -1,0 +1,53 @@
+body {
+	background-color: #bdc3c7;
+
+}
+h1{
+	color:#9b59b6;
+}
+
+h2{
+	color: orange;
+}
+
+li{
+	color: blue;
+
+}
+p{	width:auto;
+	background-color: yellow;}
+input{
+	border-width: 3px ;
+	border-color: red;
+	border-style:dashed;}
+.parclass1{background-color: white;}
+#parid1{border:2px solid blue;}
+div p {font-size:25px;}
+input [type=text]{background-color: grey;}
+div:nth-of-type(3) p {background-color: black;}
+div:nth-of-type(3) p:nth-of-type(2){border:5px solid green;}
+input:checked {
+	margin-left: 50px;}
+*{text-transform: uppercase;}
+h1:hover{
+	color: blue;
+}
+#parid1:first-letter {color: green;
+					font-size: 100px}
+
+td{width: 100px;
+	height: 100px;}
+.rl{border-right-style: solid;
+	border-left-style: solid;
+	border-left-width:2px;
+	border-left-color: black;
+	border-right-width:2px; 
+	border-right-color: black}
+.ud{
+	border-top:2px solid black;
+	border-bottom:2px solid black ;
+}
+}
+table{margin: auto;
+	}
+#tabo{margin:auto;}
